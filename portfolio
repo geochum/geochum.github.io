@@ -18,19 +18,23 @@
         <a href="#tutoring">Tutoring</a>
     </nav>
 
-<!-- Portfolio Section -->
-<section id="portfolio">
-    <h2>Portfolio</h2>
-    <p>Highlight some of your works, projects, or anything you've built here. Use images, links, and brief descriptions.</p>
-    <!-- Example of a project showcase -->
-    <div class="project-card">
-        <h3>Project Name</h3>
-        <img src="path-to-image.jpg" alt="Project Image" />
-        <p>Brief description of the project.</p>
-        <a href="project-link.com">View Project</a>
-    </div>
-    <!-- Repeat similar blocks for more projects -->
-</section>
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Highlight some of your works, projects, or anything you've built here. Use images, links, and brief descriptions.</p>
+        <!-- Example of a project showcase -->
+        <div class="project-card">
+            <h3>Project Name</h3>
+            <img src="path-to-image.jpg" alt="Project Image" />
+            <p>Brief description of the project.</p>
+            <a href="project-link.com">View Project</a>
+        </div>
+        <!-- Repeat similar blocks for more projects -->
+    </section>
 
+    <!-- Footer -->
+    <footer>
+        <p>Contact me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    </footer>
 </body>
 </html>

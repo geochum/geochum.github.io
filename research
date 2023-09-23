@@ -31,5 +31,9 @@
         <!-- Repeat similar blocks for more research entries -->
     </section>
 
+    <!-- Footer -->
+    <footer>
+        <p>Contact me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    </footer>
 </body>
 </html>
