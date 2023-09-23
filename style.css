@@ -13,6 +13,71 @@ img {
     border: 2px solid #333; /* optional border */
 }
 
+.container {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+aside {
+    flex: 1;
+    padding: 10px;
+    border-right: 1px solid #ccc; /* Optional, if you want a dividing line */
+}
+
+main {
+    flex: 3;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+aside img {
+    width: 100%; /* this will make your image fit the width of the aside column */
+    height: auto; /* maintains aspect ratio */
+    border-radius: 50%; /* Optional, if you want your image to be circular */
+    margin-bottom: 10px; /* adds some space between the image and your name */
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
+
+
+main {
+    flex: 3;
+    padding: 10px;
+}
+
+aside img {
+    width: 60%; /* this will make your image fit the width of the aside column */
+    height: auto; /* maintains aspect ratio */
+    border-radius: 50%; /* Optional, if you want your image to be circular */
+    margin-bottom: 10px; /* adds some space between the image and your name */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    aside {
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
 header {
     text-align: center;
     margin-bottom: 20px;
