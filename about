@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Home</title>
+    <title>About - George Chumbipuma</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <!-- Navigation -->
     <nav>
         <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
         <a href="portfolio.html">Portfolio</a> |
         <a href="research.html">Research</a> |
-        <a href="#tutoring">Tutoring</a>
+        <a href="tutoring.html">Tutoring</a>
     </nav>
 
     <!-- About Section -->
-    <section id="about">
+    <section>
         <h2>About Me</h2>
         <p>Your brief bio goes here. This could include your educational background, interests, and a bit about your professional journey.</p>
     </section>
 
+    <!-- Footer -->
+    <footer>
+        <p>Contact me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    </footer>
 </body>
 </html>
