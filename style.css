@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato', sans-serif;  /* A simple yet professional font */
+    font-family: 'Lato', sans-serif;
     padding: 20px;
     background-color: #f9f9f9;
     color: #333;
@@ -18,6 +18,7 @@ img {
     justify-content: start;
     align-items: flex-start;
     height: 100vh;
+    gap: 20px; /* Cleaner way to create space between child elements */
 }
 
 aside {
@@ -28,16 +29,15 @@ aside {
     justify-content: center;
     padding: 10px;
     border-right: 1px solid #ccc;
-    margin-right: 20px;  /* Add space to the right side of the aside element */
 }
 
 main {
     flex: 3;
-    padding: 20px;  /* Increased padding for better spacing */
+    padding: 20px;
     overflow-y: auto;
-    background-color: white;  /* Adding a distinct background for the content area */
-    border-radius: 5px;  /* Rounding the edges a bit */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Slightly increased shadow for a bit more depth */
 }
 
 aside img {
@@ -54,6 +54,7 @@ aside img {
     aside {
         border-right: none;
         border-bottom: 1px solid #ccc;
+        margin-bottom: 20px; /* Adding space at the bottom for mobile view */
     }
 }
 
@@ -63,10 +64,10 @@ header, nav, footer {
 }
 
 nav a {
-    margin: 0 15px;  /* Increased spacing for better tap targets on mobile */
+    margin: 0 15px;
     text-decoration: none;
     color: #007BFF;
-    transition: color 0.3s;
+    transition: color 0.3s ease-in-out; /* Smooth transition */
 }
 
 nav a:hover {
@@ -74,9 +75,10 @@ nav a:hover {
 }
 
 section, .project-card, .research-card {
-    padding: 15px;  /* Increased padding */
+    padding: 15px;
     border-radius: 5px;
     margin-top: 20px;
+    background-color: #f9f9f9; /* Slight background to distinguish from main background */
 }
 
 .project-card img, .research-card img {
@@ -92,8 +94,8 @@ h2, h3 {
 }
 
 h4 {
-    margin-top: 15px;  /* Space between subsections */
-    font-weight: normal;  /* So it doesn't look too dominant */
+    margin-top: 15px;
+    font-weight: 500; /* Semi-bold to provide slight distinction */
     color: #555;
 }
 
