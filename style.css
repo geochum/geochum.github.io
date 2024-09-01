@@ -103,8 +103,8 @@ footer {
     margin-top: 40px;
 }
 
-/* New CSS for the resume download button */
-.download-button {
+/* Button styles for resume download and visit Pumatics website */
+.download-button, .visit-button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
@@ -115,6 +115,6 @@ footer {
     transition: background-color 0.3s ease;
 }
 
-.download-button:hover {
+.download-button:hover, .visit-button:hover {
     background-color: #0056b3;
 }
