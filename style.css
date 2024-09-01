@@ -102,3 +102,19 @@ h4 {
 footer {
     margin-top: 40px;
 }
+
+/* New CSS for the resume download button */
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
