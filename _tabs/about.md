@@ -43,7 +43,7 @@ August 2020 -- August 2022
 
 #### University of California, Irvine, Irvine, CA
 **Bachelor of Science -- Double Major in Electrical Engineering and Physics**  
-September 2010 -- June 2013  
+<!-- September 2010 -- June 2013   -->
 **Minor:** Information and Computer Science  
 **Honors:** Tau Beta Pi  
 **Courses:** Data Structures, Numerical Analysis, Statistical Physics, Engineering Probability, Machine Vision, Computer Organization
