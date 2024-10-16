@@ -6,10 +6,44 @@ order: 4
 
 ## Welcome to My Professional Portfolio
 
-I am George Chumbipuma, a Ph.D. student in Computational & Applied Mathematics at Rice University. My research focuses on solving complex mathematical problems, particularly in the areas of numerical methods, optimization techniques, and high-performance computing. I am passionate about leveraging my skills in mathematics and computer science to advance research in these fields and aspire to contribute as a research scientist in the future.
+I am George Chumbipuma, a Ph.D. student in Computational & Applied Mathematics at Rice University. My academic journey has been fueled by a passion for exploring complex mathematical problems and applying computational methods to solve real-world challenges.
 
-This website serves as a comprehensive portfolio showcasing my academic achievements, research projects, and professional experience. Here, you can explore my research interests, review my portfolio of work, and learn more about my academic journey.
+### Research Interests
+
+My research primarily focuses on numerical methods, optimization techniques, and high-performance computing. I am particularly interested in applying these methods to problems in mathematical physics and engineering. My goal is to contribute to advancements in these fields through rigorous research and collaboration. I aspire to contribute as a research scientist in the future.
+
+This website serves as a comprehensive portfolio showcasing my academic achievements, research projects, and professional experience. You can explore my research interests, review my portfolio of work, and learn more about my academic journey.
+
+### Teaching & Mentoring
+
+Throughout my academic career, I have also been involved in education, serving as a math educator and mentor. Teaching has allowed me to refine my communication skills and develop a deep understanding of how to convey complex concepts in an accessible way. This experience has been invaluable in both my academic and professional development.
 
 If you are interested in collaborating or learning more about my work, please feel free to explore the site or contact me directly.
 
+### Pumatics Tutoring Service
+
+Outside of my academic work, I run a tutoring service, **Pumatics**, where I offer personalized tutoring in math, science, computer science, and test preparation. You can learn more about this venture on the [Tutoring](tutoring.md) page.
+
 ---
+
+### Education
+
+#### Rice University, Houston, TX
+**Doctor of Philosophy -- Computational and Applied Mathematics**  
+August 2023 -- May 2028 (Expected)  
+**GPA:** 3.95/4.0  
+**Courses:** Functional Analysis, Advanced Numerical Analysis, Modeling Mathematical Physics, High-Performance Computing  
+
+#### San José State University, San Jose, CA
+**Master of Science -- Mathematics**  
+August 2020 -- August 2022  
+**GPA:** 3.9/4.0  
+**Honors:** Phi Kappa Phi  
+**Courses:** Advanced Matrix Theory, Numerical Partial Differential Equations, Stochastic Processes, Numerical Linear Algebra  
+
+#### University of California, Irvine, Irvine, CA
+**Bachelor of Science -- Double Major in Electrical Engineering and Physics**  
+September 2010 -- June 2013  
+**Minor:** Information and Computer Science  
+**Honors:** Tau Beta Pi  
+**Courses:** Data Structures, Numerical Analysis, Statistical Physics, Engineering Probability, Machine Vision, Computer Organization
