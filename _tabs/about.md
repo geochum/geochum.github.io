@@ -22,7 +22,7 @@ If you are interested in collaborating or learning more about my work, please fe
 
 ### Pumatics Tutoring Service
 
-Outside of my academic work, I run a tutoring service, **Pumatics**, where I offer personalized tutoring in math, science, computer science, and test preparation. You can learn more about this venture on the [Tutoring](tutoring.md) page.
+Outside of my academic work, I run a tutoring service, **Pumatics**, where I offer personalized tutoring in math, science, computer science, and test preparation. You can learn more about this venture on the [Tutoring](/tutoring.md) page.
 
 ---
 
