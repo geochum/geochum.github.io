@@ -12,17 +12,14 @@ I am George Chumbipuma, a Ph.D. student in Computational & Applied Mathematics a
 
 My research primarily focuses on numerical methods, optimization techniques, and high-performance computing. I am particularly interested in applying these methods to problems in mathematical physics and engineering. My goal is to contribute to advancements in these fields through rigorous research and collaboration. I aspire to contribute as a research scientist in the future.
 
-This website serves as a comprehensive portfolio showcasing my academic achievements, research projects, and professional experience. You can explore my research interests, review my portfolio of work, and learn more about my academic journey.
+You can explore my research in more detail on the [Research](/research/) page.
 
-### Teaching & Mentoring
 
-Throughout my academic career, I have also been involved in education, serving as a math educator and mentor. Teaching has allowed me to refine my communication skills and develop a deep understanding of how to convey complex concepts in an accessible way. This experience has been invaluable in both my academic and professional development.
+### Teaching, Mentoring, and Tutoring
 
-If you are interested in collaborating or learning more about my work, please feel free to explore the site or contact me directly.
+Throughout my academic career, I have been involved in education, serving as a math educator and mentor. This experience has allowed me to refine my communication skills and convey complex concepts in an accessible way, which has been invaluable in both my academic and professional development.
 
-### Pumatics Tutoring Service
-
-Outside of my academic work, I run a tutoring service, **Pumatics**, where I offer personalized tutoring in math, science, computer science, and test preparation. You can learn more about this venture on the [Tutoring](/tutoring/) page.
+In addition to mentoring, I run a tutoring service, **Pumatics**, where I offer personalized tutoring in math, science, computer science, and test preparation. You can learn more about this venture on the [Tutoring](/tutoring/) page.
 
 ---
 

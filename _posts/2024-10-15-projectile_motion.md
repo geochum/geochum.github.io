@@ -66,6 +66,3 @@ t_{\text{flight}} = \frac{2v_{0y}}{g} = \frac{2v_0 \sin \theta}{g}
 $$
 
 Since $ v_0 \sin \theta = v_0' \sin \theta' $, the time of flight is the same for all projectiles.
-
-<!-- # Like, Comment, Subscribe
-If you find value in this how-to doc. [Subscribe](https://www.youtube.com/@geraldtui8445?sub_confirmation=1) to my YouTube channel for more tutorials just like this one. 👍 -->
