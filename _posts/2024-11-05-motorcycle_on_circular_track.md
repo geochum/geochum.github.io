@@ -5,6 +5,7 @@ date: 2024-11-05
 categories: [Classical Mechanics]
 tags: [circular motion, forces, friction]
 math: true
+description: "A look at the forces acting on a motorcycle moving on a vertical circular track and the conditions necessary for successful completion of the stunt."
 ---
 
 ## Problem Statement

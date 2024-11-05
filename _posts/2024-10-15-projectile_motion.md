@@ -5,7 +5,9 @@ date: 2024-10-15 07:15 -0500
 categories: [Classical Mechanics]
 tags: [projectiles, kinematics, time-of-flight]
 math: true
+description: "Explore how projectiles with varying speeds and angles can achieve the same maximum height and flight time. We demonstrate that the flight time remains constant regardless of initial speed."
 ---
+
 
 ## Introduction
 
