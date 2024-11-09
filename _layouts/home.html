@@ -1,7 +1,6 @@
 ---
 layout: default
 refactor: true
-math: true
 ---
 
 {% include lang.html %} {% assign pinned = site.posts | where: 'pin', 'true' %}
@@ -24,6 +23,9 @@ push: pinned[i] %} {% endfor %} {% else %} {% assign pinned_num = 0 %} {% endif
 default_num | minus: 1 %} {% if default_num > 0 %} {% for i in
 (default_beg..default_end) %} {% assign posts = posts | push: default[i] %} {%
 endfor %} {% endif %}
+
+<script src="{{ '/assets/js/data/mathjax.js' | relative_url }}" type="text/javascript"></script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
@@ -88,9 +90,3 @@ endfor %} {% endif %}
 <!-- #post-list -->
 
 {% if paginator.total_pages > 1 %} {% include post-paginator.html %} {% endif %}
-
-
-{% if page.math or site.math %}
-<!-- MathJax -->
-<script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-{% endif %}

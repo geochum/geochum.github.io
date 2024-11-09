@@ -5,7 +5,7 @@ date: 2024-01-08
 categories: [Calculus]  
 tags: [implicit differentiation, critical points, second derivative]  
 math: true  
-description: "Analyzing an implicit equation using implicit differentiation, finding the first and second derivatives, and identifying local extrema."  
+description: "Analyzing an implicit equation using implicit differentiation, finding the first and second derivatives, and identifying local extrema."
 ---
 
 ## Problem Statement
