@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Solving for a $ f(1) $ in a Cubic Function with Defined Local Extrema
+title: "Evaluating a Cubic Function with Specific Extrema"
 date: 2024-11-09
 categories: [Calculus]
 tags: [cubic functions, calculus, extrema, integration]
 math: true
-description: "Determine the value of a $ f(1) $ given a cubic function and conditions on its extrema."
+description: "Discover how to evaluate a cubic function and its derived function based on given extrema conditions. We solve for a scaled output of the function with a practical approach to calculus concepts."
 ---
 
 ## Problem Statement
