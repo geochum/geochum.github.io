@@ -1,7 +1,7 @@
 ---
 layout: post  
 title: Implicit Differentiation and Critical Points of a Quadratic Curve  
-date: 2024-01-05  
+date: 2024-11-09  
 categories: [Calculus]  
 tags: [implicit differentiation, critical points, second derivative]  
 math: true  

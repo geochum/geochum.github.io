@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Projectile Motion with the Same Maximum Height
-date: 2024-10-15 07:15 -0500
+date: 2024-10-15
 categories: [Classical Mechanics]
 tags: [projectiles, kinematics, time-of-flight]
 math: true
