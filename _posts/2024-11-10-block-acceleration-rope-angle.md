@@ -12,21 +12,21 @@ description: "Exploring the effects of varying the angle of a pulling force on a
 
 A block of mass $M$ is pulled by a rope that makes an angle $\theta$ above the horizontal. The coefficient of kinetic friction between the block and floor is $\mu$.
 
-The block is initially at rest and starts accelerating to the right along the floor. Three students each draw a diagram to indicate all of the forces that are exerted on the block as it moves. In the students' diagrams, the lengths of the arrows indicate the relative magnitudes of the forces.
+The block is initially at rest and starts accelerating to the right along the floor.
 
-**(c)** Briefly explain why slightly increasing the angle $\theta$ (without changing the magnitude of the force exerted by the rope) could cause a decrease in the block's acceleration.
+**(a)** Briefly explain why slightly increasing the angle $\theta$ (without changing the magnitude of the force exerted by the rope) could cause a decrease in the block's acceleration.
 
-Suppose the rope is pulled with a force that has a magnitude that is one-third the weight of the block, or $\frac{M g}{3}$. In this case, when the block accelerates, its acceleration is 
+**(b)** Suppose the rope is pulled with a force that has a magnitude that is one-third the weight of the block, or $\frac{M g}{3}$. In this case, when the block accelerates, its acceleration is 
 
 $$
 a = g \left( \frac{1}{3} \cos \theta + \frac{\mu}{3} \sin \theta - \mu \right).
 $$
 
-**(d)** Explain why the above equation is consistent with the claim that an increase in the angle $\theta$ could cause a decrease in the acceleration.
+Explain why the above equation is consistent with the claim that an increase in the angle $\theta$ could cause a decrease in the acceleration.
 
 ## Solution
 
-### (c)
+### (a)
 
 Let the $+x$-direction point rightwards and the $+y$-direction point upwards.
 
@@ -70,7 +70,7 @@ This represents a shifted sine curve that is shifted to the left by $\arctan\lef
 
 Therefore, when $\theta > 90^\circ - \arctan\left(\frac{1}{\mu}\right)$, the acceleration will begin to decrease, as this is when $\sin\left(\theta + \arctan\left(\frac{1}{\mu}\right)\right)$ starts to decrease.
 
-### (d)
+### (b)
 
 We are given that the rope is pulled with a force $F = \frac{M g}{3}$. Thus,
 
