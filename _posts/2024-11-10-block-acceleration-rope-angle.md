@@ -2,7 +2,7 @@
 layout: post
 title: "Effects of Rope Angle on Block Acceleration"
 date: 2024-11-10
-categories: [Physics]
+categories: [Classical Mechanics]
 tags: [friction, force, acceleration, physics]
 math: true
 description: "Exploring the effects of varying the angle of a pulling force on a block, friction, and acceleration."
