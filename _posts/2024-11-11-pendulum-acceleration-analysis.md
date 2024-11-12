@@ -64,10 +64,10 @@ $$
 
 ### Magnitude of Total Acceleration
 
-The total acceleration magnitude $|\vec{a}|$ is:
+The magnitude of the total acceleration is:
 
 $$
-|\vec{a}| = \sqrt{a_r^2 + a_t^2} = \sqrt{(2g \sin(\theta))^2 + (g \cos(\theta))^2} = \sqrt{g^2 (4 \sin^2(\theta) + \cos^2(\theta))}
+\| \vec{a} \| = \sqrt{a_r^2 + a_t^2} = \sqrt{(2g \sin(\theta))^2 + (g \cos(\theta))^2} = \sqrt{g^2 (4 \sin^2(\theta) + \cos^2(\theta))}
 $$
 
 ### Direction of Total Acceleration
@@ -75,13 +75,13 @@ $$
 To determine the direction of the total acceleration $\vec{a}$ with respect to the standard coordinate system, we decompose the radial and tangential accelerations into components:
 
 1. **Components of $\vec{a}_r$ in the standard coordinate system**:
-2. 
+ 
    $$
    \vec{a}_r = (a_r \cos(\theta), a_r \sin(\theta)) = (2g \sin(\theta) \cos(\theta), 2g \sin(\theta) \sin(\theta))
    $$
 
-3. **Components of $\vec{a}_t$ in the standard coordinate system**:
-4. 
+2. **Components of $\vec{a}_t$ in the standard coordinate system**:
+
    $$
    \vec{a}_t = (a_t \sin(\theta), -a_t \cos(\theta)) = (g \cos(\theta) \sin(\theta), -g \cos(\theta) \cos(\theta))
    $$
@@ -98,7 +98,7 @@ $$
 \phi = \arctan\left(\frac{a_y}{a_x}\right) = \arctan\left(\frac{-(1/2) g (3 \cos(2\theta) - 1)}{3 g \sin(\theta) \cos(\theta)}\right) = \arctan\left(-\frac{1}{6} (3 \cos(2\theta) - 1) \csc(\theta) \sec(\theta)\right)
 $$
 
-### Plots of $\phi$ vs. $\theta$ and $| \vec{a} |$ vs. $\theta$
+### Plots of $\phi$ vs. $\theta$ and $$\| \vec{a} \|$$ vs. $\theta$
 
 Here is the plot of $\phi$ against $\theta$:
 
