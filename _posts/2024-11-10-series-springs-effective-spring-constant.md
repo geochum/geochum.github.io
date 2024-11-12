@@ -25,25 +25,31 @@ Since Spring 2 moves according to Spring 1's movement, its rest position (the po
 ## Force Analysis
 
 The force exerted by Spring 1 on Spring 2 is:
+
 $$
 F_1 = -k_1 \Delta x_1 = -k_1 (x_1 - 0) = -k_1 x_1.
 $$
 
 The force exerted by Spring 2 on the mass is:
+
 $$
 F_2 = -k_2 \Delta x_2 = -k_2 (x_2 - (x_1 + L_2)) = -k_2 (x_2 - x_1 - L_2).
 $$
 
 Since $F_1 = F_2$ (as the force transmitted through Spring 2 is the same as that exerted by Spring 1), we have:
+
 $$
 -k_1 x_1 = -k_2 (x_2 - x_1 - L_2).
 $$
 
 Expanding and rearranging terms:
+
 $$
 -k_1 x_1 = k_2 x_1 - k_2 (x_2 - L_2),
 $$
+
 yielding:
+
 $$
 x_2 - L_2 = \frac{k_1 + k_2}{k_2} x_1.
 $$
@@ -51,37 +57,45 @@ $$
 ## Finding the Equivalent Spring Constant
 
 We aim to find an equivalent spring constant $k_{\text{eq}}$ such that:
+
 $$
 F_s = -k_{\text{eq}} (\Delta x_1 + \Delta x_2),
 $$
+
 where $\Delta x_1 + \Delta x_2$ is the total displacement.
 
 Thus,
+
 $$
 F_s = -k_{\text{eq}} (x_1 + x_2 - (x_1 + L_2)) = -k_{\text{eq}} (x_2 - L_2).
 $$
 
 Since $F_s$ should match $F_2$ (both representing the spring force on the mass), we set $F_s = F_2$ and find:
+
 $$
 -k_{\text{eq}} (x_2 - L_2) = -k_1 x_1.
 $$
 
 Rearranging gives:
+
 $$
 k_{\text{eq}} (x_2 - L_2) = k_1 x_1.
 $$
 
 Using our previous substitution and simplifying, we arrive at:
+
 $$
 k_{\text{eq}} \frac{k_1 + k_2}{k_2} x_1 = k_1 x_1.
 $$
 
 Solving for $k_{\text{eq}}$, we find:
+
 $$
 k_{\text{eq}} = \frac{k_1 k_2}{k_1 + k_2}.
 $$
 
 Alternatively, we can express this as:
+
 $$
 \frac{1}{k_{\text{eq}}} = \frac{1}{k_1} + \frac{1}{k_2}.
 $$
@@ -91,7 +105,9 @@ This result shows that the effective spring constant $k_{\text{eq}}$ for two spr
 ## Conclusion
 
 We derived the equivalent spring constant for two springs in series, showing that:
+
 $$
 k_{\text{eq}} = \frac{k_1 k_2}{k_1 + k_2},
 $$
+
 which provides insight into how forces are distributed in spring systems.
