@@ -28,7 +28,7 @@ In addition to mentoring, I run a tutoring service, **Pumatics**, where I offer 
 #### Rice University, Houston, TX
 **Doctor of Philosophy -- Computational and Applied Mathematics**  
 August 2023 -- May 2028 (Expected)  
-**GPA:** 3.96/4.0  
+**GPA:** 3.95/4.0  
 **Courses:** Functional Analysis, Advanced Numerical Analysis, Modeling Mathematical Physics, High-Performance Computing  
 
 #### San José State University, San Jose, CA
