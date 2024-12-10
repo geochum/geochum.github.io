@@ -51,10 +51,11 @@ August 2020 -- August 2022
 **Minor:** Information and Computer Science  
 - **Honors:** Tau Beta Pi  
 - **Key Courses:** Data Structures, Numerical Analysis, Statistical Physics, Engineering Probability, Machine Vision, Computer Organization  
+
 ---
 
 ### Vision
 
 Looking ahead, I aspire to become a research scientist at a national laboratory, contributing to advancements in computational science and engineering. I aim to leverage my expertise in scalable numerical methods and HPC to address global challenges in energy, sustainability, and physical sciences.
 
-Feel free to explore the rest of my site for more information about my work, education, and initiatives. Together, let’s build a future powered by in
+Feel free to explore the rest of my site for more information about my work, education, and initiatives. Together, let’s build a future powered by innovation and inclusivity.
