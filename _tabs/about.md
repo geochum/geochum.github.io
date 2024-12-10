@@ -44,7 +44,7 @@ August 2020 -- August 2022
 - **Honors:** Phi Kappa Phi  
 - **Advisor:** Dr. Slobodan Simić  
 - **Key Courses:** Advanced Matrix Theory, Numerical Partial Differential Equations, Stochastic Processes, Numerical Linear Algebra  
-- **Research:** Applied dynamical systems techniques to analyze stability in cosmological models within the Lambda Cold Dark Matter ($$\Lambda \mathrm{CDM}$$) framework.
+- **Research:** Applied dynamical systems techniques to analyze stability in cosmological models within the Lambda Cold Dark Matter (ΛCDM) framework.
 
 #### University of California, Irvine, Irvine, CA
 **Bachelor of Science -- Double Major in Electrical Engineering and Physics**  
