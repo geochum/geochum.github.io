@@ -3,14 +3,14 @@ layout: post
 title: "Calculating the Coefficient of Friction Between a Block and a Table"
 date: 2024-12-24
 categories: [Classical Mechanics, Physics]
-tags: [friction, kinematics, kinetics, force analysis]
+tags: [friction, kinematics, kinetics, force analysis, pulley]
 math: true
-description: "Using two approaches—kinematics and kinetics—to calculate the coefficient of friction for a system involving two identical blocks."
+description: "Using two approaches—kinematics and kinetics—to calculate the coefficient of friction for a system involving two identical blocks connected via a massless pulley."
 ---
 
 ## Problem Statement
 
-To determine the coefficient of friction $\mu$ between a block and a horizontal table, consider the following setup: Two identical blocks of mass $m$ are used. One block is placed on a horizontal table, while the other is suspended off the edge, connected by a string. The system starts from rest with both blocks at the same height $h$. When the hanging block falls to the floor, the block on the table slides an additional distance of $x = 2h$ before coming to a complete stop. Based on this information, calculate $\mu$.
+To determine the coefficient of friction $\mu$ between a block and a horizontal table, consider the following setup: Two identical blocks of mass $m$ are used. One block is placed on a horizontal table, while the other is suspended off the edge, connected by a string that passes over a **massless, frictionless pulley**. The system starts from rest with both blocks at the same height $h$. When the hanging block falls to the floor, the block on the table slides an additional distance of $x = 2h$ before coming to a complete stop. Based on this information, calculate $\mu$.
 
 ---
 
