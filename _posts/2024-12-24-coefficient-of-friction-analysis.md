@@ -10,7 +10,7 @@ description: "Using two approaches—kinematics and kinetics—to calculate the 
 
 ## Problem Statement
 
-To determine the coefficient of friction $\mu$ between a block and a horizontal table, consider the following setup: Two identical blocks of mass $m$ are used. One block is placed on a horizontal table, while the other is suspended off the edge, connected by a string that passes over a **massless, frictionless pulley**. The system starts from rest with both blocks at the same height $h$. When the hanging block falls to the floor, the block on the table slides an additional distance of $x = 2h$ before coming to a complete stop. Based on this information, calculate $\mu$.
+To determine the coefficient of friction $\mu$ between a block and a horizontal table, consider the following setup: Two identical blocks of mass $m$ are used. One block is placed on a horizontal table, while the other is suspended off the edge, connected by a string that passes over a massless, frictionless pulley. The system starts from rest with both blocks at the same height $h$. When the hanging block falls to the floor, the block on the table slides an additional distance of $x = 2h$ before coming to a complete stop. Based on this information, calculate $\mu$.
 
 ---
 
