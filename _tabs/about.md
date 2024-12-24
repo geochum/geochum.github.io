@@ -33,7 +33,7 @@ I am deeply committed to education and mentorship, especially for underrepresent
 #### Rice University, Houston, TX
 **Doctor of Philosophy -- Computational and Applied Mathematics**  
 August 2023 -- May 2028 (Expected)  
-- **GPA:** 3.95/4.0  
+- **GPA:** 3.94/4.0  
 - **Advisor:** Dr. Beatrice Riviere  
 - **Key Courses:** Functional Analysis, Advanced Numerical Analysis, Modeling Mathematical Physics, High-Performance Computing  
 
