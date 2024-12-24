@@ -118,7 +118,7 @@ $$
 Using $v_h^2 = g h (1 - \mu)$:
 
 $$
--k \mu m g h = m \left[g h (1 - \mu)\right] - m g h
+-k \mu m g h = m \left(g h (1 - \mu)\right) - m g h
 $$
 
 ---
