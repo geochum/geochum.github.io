@@ -1,0 +1,105 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      3370,         97]
+NotebookOptionsPosition[      2293,         68]
+NotebookOutlinePosition[      3030,         90]
+CellTagsIndexPosition[      2987,         87]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["January 2, 2025", "Subtitle",
+ CellChangeTimes->{{3.9448175591068497`*^9, 3.9448175618133163`*^9}, {
+  3.9448176114805717`*^9, 
+  3.944817614840967*^9}},ExpressionUUID->"abbb7201-1e75-254b-aadc-\
+1d5afbc0c4f7"],
+
+Cell[CellGroupData[{
+
+Cell["Electromagnetic Induction", "Section",
+ CellChangeTimes->{{3.944817495497553*^9, 
+  3.9448175022487564`*^9}},ExpressionUUID->"06da20cc-ad44-664e-86eb-\
+9a0d4661cf51"],
+
+Cell[CellGroupData[{
+
+Cell["Faraday\[CloseCurlyQuote]s Law", "Subsection",
+ CellChangeTimes->{{3.9448176743202667`*^9, 
+  3.9448176778808365`*^9}},ExpressionUUID->"67d37561-6bff-a74e-97d0-\
+aaa6fb91a860"],
+
+Cell[TextData[{
+ "In the case of motional emf, the flux rule is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CurlyEpsilon]", "=", 
+    RowBox[{"-", 
+     FractionBox[
+      RowBox[{"\[DifferentialD]", "\[CapitalPhi]"}], 
+      RowBox[{"\[DifferentialD]", "t"}]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2f4c3eb6-317e-6b4d-8404-902dc922266f"],
+ ". All that matters is the relative motion of the magnet and the loop. If \
+the loop moves, it\[CloseCurlyQuote]s a magnetic force that sets up the emf, \
+but if the loop is stationary, the force cannot be magnetic since stationary \
+charges experience no magnetic forces. A changing magnetic field induces an \
+electric field. It is this induced electric field that accounts for the emf \
+when the magnetic field moves relative to the loop."
+}], "Text",
+ CellChangeTimes->{{3.944817851471552*^9, 3.944817917023159*^9}, {
+  3.9448179565267143`*^9, 3.944818003078499*^9}, {3.9448180387425995`*^9, 
+  3.944818121791813*^9}},ExpressionUUID->"2e806b3b-ee9e-0847-b282-\
+8d1b4fbacf41"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1086, 416.25},
+WindowMargins->{{537.75, Automatic}, {-2.25, Automatic}},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (July 16, 2024)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Math.nb"]]}, WindowSize -> {581.25, 654}, 
+  WindowMargins -> {{18.75, Automatic}, {Automatic, 23.25}}, Visible -> False,
+   FrontEndVersion -> "14.1 for Microsoft Windows (64-bit) (July 16, 2024)", 
+  StyleDefinitions -> "PrivateStylesheetFormatting.nb"],
+ExpressionUUID->"77198733-ef48-ea48-8ccf-4390bc145837"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 216, 4, 72, "Subtitle",ExpressionUUID->"abbb7201-1e75-254b-aadc-1d5afbc0c4f7"],
+Cell[CellGroupData[{
+Cell[817, 30, 172, 3, 93, "Section",ExpressionUUID->"06da20cc-ad44-664e-86eb-9a0d4661cf51"],
+Cell[CellGroupData[{
+Cell[1014, 37, 182, 3, 75, "Subsection",ExpressionUUID->"67d37561-6bff-a74e-97d0-aaa6fb91a860"],
+Cell[1199, 42, 1054, 21, 170, "Text",ExpressionUUID->"2e806b3b-ee9e-0847-b282-8d1b4fbacf41"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
