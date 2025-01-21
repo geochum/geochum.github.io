@@ -41,6 +41,8 @@ $$
 m = \frac{g R^2}{G}.
 $$
 
+This provides a relationship between $g$, $R$, $G$, and $m$.
+
 ---
 
 ### (b) Derive a Formula for $x$ in Terms of $G$, $m$, and $T$
@@ -50,13 +52,13 @@ $$
 We analyze the forces acting on the telescope and the Earth, assuming circular orbits.
 
 1. **Earth's Orbit**:
-   The gravitational force acting on the Earth due to the Sun provides the centripetal force:
+   The gravitational force acting on the Earth due to the Sun provides the centripetal force for its circular motion:
 
    $$
    \frac{G M m}{L^2} = m \frac{v_m^2}{L},
    $$
 
-   where $v_m$ is the Earth's orbital speed. Substituting $v_m = \frac{2 \pi L}{T}$:
+   where $v_m$ is the orbital speed of the Earth. Substituting $v_m = \frac{2 \pi L}{T}$:
 
    $$
    \frac{G M}{L^2} = \frac{4 \pi^2 L}{T^2}.
@@ -67,6 +69,24 @@ We analyze the forces acting on the telescope and the Earth, assuming circular o
    $$
    \frac{G M}{L^3} = \frac{4 \pi^2}{T^2}.
    $$
+
+#### Why Neglect the Telescope’s Gravitational Force?
+
+The telescope exerts a gravitational force on the Earth, given by:
+
+$$
+F_{\text{telescope}} = \frac{G m \mu}{x^2}.
+$$
+
+However, since \(\mu\) (the telescope's mass) is negligible compared to \(M\) (the Sun's mass) and \(m\) (the Earth's mass), its gravitational contribution is much smaller than the gravitational force from the Sun:
+
+$$
+\frac{F_{\text{telescope}}}{F_{\text{Sun}}} = \frac{\frac{G m \mu}{x^2}}{\frac{G M m}{L^2}} = \frac{\mu L^2}{M x^2}.
+$$
+
+For typical values (\(\mu \ll m\), \(x \ll L\)), this ratio is extremely small, justifying the exclusion of the telescope’s gravitational force from the analysis of the Earth’s orbit.
+
+---
 
 2. **Telescope's Orbit**:
    The telescope experiences gravitational forces from both the Sun and the Earth. The net radial force is:
@@ -81,9 +101,11 @@ We analyze the forces acting on the telescope and the Earth, assuming circular o
    \frac{G M}{(L+x)^2} + \frac{G m}{x^2} = \frac{4 \pi^2 (L+x)}{T^2}.
    $$
 
+---
+
 #### Approximations for Small $x/L$
 
-Given $x \ll L$, we approximate terms as follows:
+Given $x \ll L$, approximate terms as follows:
 - $\frac{1}{(L+x)^2} \approx \frac{1}{L^2} \left(1 - \frac{2x}{L}\right) = \frac{1}{L^2} - \frac{2x}{L^3}$.
 
 Substituting into $\frac{G M}{(L+x)^2}$:
@@ -92,7 +114,7 @@ $$
 \frac{G M}{(L+x)^2} \approx \frac{G M}{L^2} - \frac{2 G M x}{L^3}.
 $$
 
-Additionally, expand $\frac{4 \pi^2 (L+x)}{T^2}$ as:
+Expanding $\frac{4 \pi^2 (L+x)}{T^2}$ exactly:
 
 $$
 \frac{4 \pi^2 (L+x)}{T^2} = \frac{4 \pi^2 L}{T^2} + \frac{4 \pi^2 x}{T^2}.
@@ -191,4 +213,4 @@ $$
 
 ## Conclusion
 
-This analysis showcases the delicate balance of gravitational forces that allows the James Webb Space Telescope to maintain its position in the Sun-Earth system. The approximations used demonstrate the power of simplifying assumptions in orbital mechanics.
+This analysis rigorously justifies why the telescope’s gravitational influence is negligible when considering the Earth’s orbit. It also demonstrates how approximations and gravitational physics can provide insight into the James Webb Space Telescope’s stable position in the Sun-Earth system.
