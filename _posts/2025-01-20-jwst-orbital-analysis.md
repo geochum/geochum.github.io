@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Analyzing the James Webb Space Telescope's Orbit"
-date: 2025-01-12
+date: 2025-01-20
 categories: [Astrophysics, Orbital Mechanics]
 tags: [gravitational physics, orbital motion, telescope]
 math: true
