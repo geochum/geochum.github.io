@@ -84,10 +84,21 @@ We analyze the forces acting on the telescope and the Earth, assuming circular o
 #### Approximations for Small $x/L$
 
 Given $x \ll L$, we approximate terms as follows:
-- $\frac{1}{(L+x)^2} \approx \frac{1}{L^2} \left(1 - \frac{2x}{L}\right) = \frac{1}{L^2} - \frac{2x}{L^3}$,
-- $\frac{4 \pi^2 (L+x)}{T^2} \approx \frac{4 \pi^2 L}{T^2} + \frac{4 \pi^2 x}{T^2}$.
+- $\frac{1}{(L+x)^2} \approx \frac{1}{L^2} \left(1 - \frac{2x}{L}\right) = \frac{1}{L^2} - \frac{2x}{L^3}$.
 
-Using these approximations:
+Substituting into $\frac{G M}{(L+x)^2}$:
+
+$$
+\frac{G M}{(L+x)^2} \approx \frac{G M}{L^2} - \frac{2 G M x}{L^3}.
+$$
+
+Additionally, expand $\frac{4 \pi^2 (L+x)}{T^2}$ as:
+
+$$
+\frac{4 \pi^2 (L+x)}{T^2} = \frac{4 \pi^2 L}{T^2} + \frac{4 \pi^2 x}{T^2}.
+$$
+
+Using these results:
 
 $$
 \frac{G M}{L^2} - \frac{2 G M x}{L^3} + \frac{G m}{x^2} = \frac{4 \pi^2 L}{T^2} + \frac{4 \pi^2 x}{T^2}.
