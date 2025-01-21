@@ -51,40 +51,43 @@ This provides a relationship between $g$, $R$, $G$, and $m$.
 
 We analyze the forces acting on the telescope and the Earth, assuming circular orbits.
 
-1. **Earth's Orbit**:
-   The gravitational force acting on the Earth due to the Sun provides the centripetal force for its circular motion:
+#### 1. Earth’s Orbit (Including Telescope’s Gravitational Force)
 
-   $$
-   \frac{G M m}{L^2} = m \frac{v_m^2}{L},
-   $$
+The Earth experiences two gravitational forces:
+- The force from the Sun, $\frac{G M m}{L^2}$,
+- The force from the telescope, $\frac{G m \mu}{x^2}$.
 
-   where $v_m$ is the orbital speed of the Earth. Substituting $v_m = \frac{2 \pi L}{T}$:
-
-   $$
-   \frac{G M}{L^2} = \frac{4 \pi^2 L}{T^2}.
-   $$
-
-   This implies:
-
-   $$
-   \frac{G M}{L^3} = \frac{4 \pi^2}{T^2}.
-   $$
-
-#### Why Neglect the Telescope’s Gravitational Force?
-
-The telescope exerts a gravitational force on the Earth, given by:
+The net radial force acting on the Earth is:
 
 $$
-F_{\text{telescope}} = \frac{G m \mu}{x^2}.
+\frac{G M m}{L^2} - \frac{G m \mu}{x^2} = m \frac{v_m^2}{L},
 $$
 
-However, since \(\mu\) (the telescope's mass) is negligible compared to \(M\) (the Sun's mass) and \(m\) (the Earth's mass), its gravitational contribution is much smaller than the gravitational force from the Sun:
+where $v_m$ is the Earth’s orbital speed. Substituting $v_m = \frac{2 \pi L}{T}$:
 
 $$
-\frac{F_{\text{telescope}}}{F_{\text{Sun}}} = \frac{\frac{G m \mu}{x^2}}{\frac{G M m}{L^2}} = \frac{\mu L^2}{M x^2}.
+\frac{G M}{L^2} - \frac{G \mu}{x^2} = \frac{4 \pi^2 L}{T^2}.
 $$
 
-For typical values (\(\mu \ll m\), \(x \ll L\)), this ratio is extremely small, justifying the exclusion of the telescope’s gravitational force from the analysis of the Earth’s orbit.
+#### Justification for Neglecting the Telescope’s Contribution
+
+The term $\frac{G \mu}{x^2}$ is small compared to $\frac{G M}{L^2}$ because $\mu \ll M$ and $x \ll L$. The ratio of the telescope's contribution to the Sun’s force is:
+
+$$
+\frac{\frac{G \mu}{x^2}}{\frac{G M}{L^2}} = \frac{\mu L^2}{M x^2}.
+$$
+
+Since $\mu \ll M$ and $x \ll L$, this ratio is negligible. Mathematically, we retain $\frac{G \mu}{x^2}$ in the equation for rigor, but as $x \to 0$ and $\mu \ll M$, this term vanishes. Hence, we approximate:
+
+$$
+\frac{G M}{L^2} \approx \frac{4 \pi^2 L}{T^2}.
+$$
+
+This implies:
+
+$$
+\frac{G M}{L^3} = \frac{4 \pi^2}{T^2}.
+$$
 
 ---
 
