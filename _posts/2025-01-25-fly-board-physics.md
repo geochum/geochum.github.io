@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Physics of a Fly-Board: Lifting a Rider and Calculating Pump Power"
-date: 2025-01-20
+date: 2025-01-25
 categories: [Fluid Mechanics, Physics]
 tags: [fluid dynamics, thrust, power, fly-board]
 math: true
