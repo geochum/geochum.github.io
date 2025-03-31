@@ -1,7 +1,8 @@
 ---
 layout: default
 icon: fas fa-chalkboard-teacher
-order: 6
+order: 4
+title: Tutoring
 ---
 
 ## Tutoring Services
