@@ -1,7 +1,8 @@
 ---
 layout: default
 icon: fas fa-flask
-order: 5
+order: 2
+title: Research
 ---
 
 ## Research
