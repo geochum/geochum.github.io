@@ -17,11 +17,16 @@ package-lock.json
 
 # IDE configurations
 .idea
+
+# VSCode configurations
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
 !.vscode/tasks.json
 
-# Misc
+# Miscellaneous
 _sass/vendors
 assets/js/dist
+
+# macOS files
+.DS_Store
