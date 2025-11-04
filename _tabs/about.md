@@ -7,7 +7,7 @@ order: 1
 
 # About
 
-I am George Chumbipuma, a Ph.D. student in Computational & Applied Mathematics at Rice University, working on numerical methods for PDEs with applications in scientific machine learning.
+I am Jorge (George) Chumbipuma, a Ph.D. student in Computational & Applied Mathematics at Rice University, working on numerical methods for PDEs with applications in scientific machine learning.
 
 ## Research Interests
 

@@ -14,12 +14,12 @@ timezone: America/Chicago
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: George Chumbipuma # the main title
+title: Jorge (George) Chumbipuma # the main title
 
 tagline: Ph.D. Student in Computational & Applied Mathematics | Research Computational Scientist in Training | Scientific Computing & PDEs
 
 description: >- # used by seo meta and the atom feed
-  The professional website and portfolio of George Chumbipuma, a Ph.D. student in Computational & Applied Mathematics.
+  The professional website and portfolio of Jorge (George) Chumbipuma, a Ph.D. student in Computational & Applied Mathematics.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,7 +34,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: George Chumbipuma
+  name: Jorge (George) Chumbipuma
   email: gchumbip@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
