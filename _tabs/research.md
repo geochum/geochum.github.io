@@ -8,9 +8,9 @@ title: Research
 ## Research
 
 <section id="research">
-  <!-- Neural-Informed Neural Networks (NINNs) for PDEs -->
+  <!-- Numerics-Informed Neural Networks (NINNs) for PDEs -->
   <div>
-    <h3>Neural-Informed Neural Networks (NINNs) for PDEs</h3>
+    <h3>Numerics-Informed Neural Networks (NINNs) for PDEs</h3>
     <p>
       My research focuses on scientific machine learning for PDEs—developing NINNs and PINNs architectures and GPU-accelerated simulation. The work addresses algorithmic foundations of optimization, neural network architectures, and uses HPC clusters for large-scale computations.
     </p>

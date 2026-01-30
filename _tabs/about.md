@@ -13,7 +13,7 @@ I am Jorge (George) Chumbipuma, a Ph.D. student in Computational & Applied Mathe
 
 My research lies at the intersection of **scientific machine learning (SciML)** and **numerical methods**.
 
-I develop and analyze **Neural-Informed Neural Networks (NINNs)** — time-marching neural solvers for parabolic PDEs — and compare them against traditional methods such as Backward Euler and Crank–Nicolson. My work focuses on stability, error propagation, and convergence in neural PDE frameworks.
+I develop and analyze **Numerics-Informed Neural Networks (NINNs)** — time-marching neural solvers for parabolic PDEs — and compare them against traditional methods such as Backward Euler and Crank–Nicolson. My work focuses on stability, error propagation, and convergence in neural PDE frameworks.
 
 I implement and run computations on HPC clusters (Rice NOTs) and have experience with GPU computing and distributed algorithms from my internship at **Lawrence Livermore National Laboratory**.
 
