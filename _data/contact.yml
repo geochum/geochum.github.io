@@ -11,6 +11,10 @@
   icon: 'fab fa-orcid'
   url: 'https://orcid.org/0000-0001-9822-5563'
 
+- type: webofscience
+  icon: 'fas fa-book-open'
+  url: 'https://www.webofscience.com/wos/author/record/NSV-1077-2025'
+
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
