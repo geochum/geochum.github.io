@@ -229,7 +229,7 @@ The $\theta$-method packages Forward Euler, Backward Euler, and Crank–Nicolson
 
 ## Further Reading
 
-1. H. P. Langtangen — finite-difference schemes for diffusion / the $\theta$-rule ([notes](http://hplgit.github.io/num-methods-for-PDEs/doc/pub/diffu/html/slides_diffu-1.html)).
+1. H. P. Langtangen — finite-difference schemes for diffusion / the $\theta$-rule ([notes](https://hplgit.github.io/num-methods-for-PDEs/doc/pub/diffu/html/slides_diffu-1.html)).
 2. CU Numerical Computation — $R(z)$, A-stability, L-stability ([notes](https://cu-numcomp.github.io/spring22/slides/2022-04-22-adaptivity.html)).
 3. J. Crank and P. Nicolson, *A practical method for numerical evaluation of solutions of partial differential equations of the heat-conduction type*, Proc. Cambridge Philos. Soc. **43** (1947), 50–67 ([DOI](https://doi.org/10.1017/S0305004100023197)).
 4. A. Celaya, K. Kirk, D. Fuentes, and B. Riviere, *Solutions to elliptic and parabolic problems via finite difference based unsupervised small linear convolutional neural networks*, Comput. Math. Appl. **174** (2024), 31–42 ([DOI](https://doi.org/10.1016/j.camwa.2024.08.013); [arXiv:2311.00259](https://arxiv.org/abs/2311.00259)).
