@@ -7,21 +7,24 @@ order: 1
 
 # About
 
-I am Jorge (George) Chumbipuma, a Ph.D. student in Computational & Applied Mathematics at Rice University, working on numerical methods for PDEs with applications in scientific machine learning.
+I am Jorge (George) Chumbipuma, a Ph.D. student in Computational & Applied Mathematics at Rice University, working on numerical methods for PDEs with applications in scientific machine learning. My advisor is **Dr. Beatrice Riviere**.
 
 ## Research Interests
 
 My research lies at the intersection of **scientific machine learning (SciML)** and **numerical methods**.
 
-I develop and analyze **Numerics-Informed Neural Networks (NINNs)** — time-marching neural solvers for parabolic PDEs — and compare them against traditional methods such as Backward Euler and Crank–Nicolson. My work focuses on stability, error propagation, and convergence in neural PDE frameworks.
+I study and extend **Numerics-Informed Neural Networks (NINNs)** — time-marching neural solvers for parabolic PDEs introduced by [Celaya, Kirk, Fuentes, and Riviere (2024)](https://doi.org/10.1016/j.camwa.2024.08.013) — focusing on boundary lifting, training schedules, stability, error propagation, and convergence relative to classical schemes such as Backward Euler and Crank–Nicolson. More recently, at **Sandia National Laboratories**, I have built research software to evaluate hybrid neural / full-order couplings that build on prior Schwarz–PINN ideas.
 
-I implement and run computations on HPC clusters (Rice NOTs) and have experience with GPU computing and distributed algorithms from my internship at **Lawrence Livermore National Laboratory**.
+I implement and run computations on HPC clusters (Rice NOTs) and have experience with GPU computing and distributed algorithms from internships at **Sandia National Laboratories** and **Lawrence Livermore National Laboratory**.
 
 Earlier interests in porous media and fracture modeling continue to influence my perspective on multiscale, multiphysics problems.
 
-My research is supported by the **NDSEG Fellowship** (Department of Defense) and **GEM Fellowship** (sponsored by MIT Lincoln Laboratory). You can explore my ongoing projects and research on the [Research](/research/) page.
+My research is supported by the **NDSEG Fellowship** (Department of Defense), **GEM Fellowship** (sponsored by MIT Lincoln Laboratory), and the **Ken Kennedy Institute ExxonMobil Graduate Fellowship**. You can explore my ongoing projects, thesis, and related publications on the [Research](/research/) page.
 
 ## Experience
+
+- **Computational Science Intern – Sandia National Laboratories** (Summer 2026)  
+  Studied hybrid neural / full-order PDE coupling with overlapping Schwarz methods. Built a research code lab for finite-difference, NINN, and PINN baselines and ran experiment campaigns under the mentorship of Irina Tezaur and collaborators, adapting methods introduced in prior Sandia and Rice work rather than inventing those frameworks.
 
 - **Scientific Computing Intern – Lawrence Livermore National Laboratory** (Summer 2025)  
   Worked on GPU-enabled optimization in the HiOp framework: implemented RAJA-based solvers with MPI support and ported quasi-Newton methods to CUDA.
@@ -34,6 +37,8 @@ My research is supported by the **NDSEG Fellowship** (Department of Defense) and
 
 ## Presentations
 
+- **Numerics-Informed Neural Networks for Parabolic PDEs** (Talk), 2026 SIAM Annual Meeting (AN26), July 2026
+- **Numerics-Informed Neural Networks for Parabolic PDEs** (Lightning talk and poster), Energy HPC & AI Conference, Ken Kennedy Institute, Rice University, Houston, TX, February 2026
 - **Scientific Machine Learning for Geophysical PDEs** (Poster), SIAM Conference on Mathematical & Computational Issues in the Geosciences (GS25), Louisiana State University, Baton Rouge, LA, October 2025
 - **Numerics-Informed Neural Networks for Parabolic PDEs** (Poster), RTG NASC Annual Workshop, Rice University, Houston, TX, October 2025
 - **Numerical Solutions to the Nonlinear Vlasov Equations**, Rice University, Houston, TX, May 2024
@@ -63,6 +68,8 @@ I am committed to education and mentorship, especially for underrepresented grou
 
 ### Conferences and Workshops
 
+- **2026 SIAM Annual Meeting (AN26)** — Presenter, July 2026
+- **Energy HPC & AI Conference** — Presenter (lightning talk and poster), Rice University, Houston, TX (February 2026)
 - **SIAM Conference on Mathematical & Computational Issues in the Geosciences (GS25)** — Presenter, Baton Rouge, LA (October 2025)
 - **SIAM Texas-Louisiana Sectional Meeting** — Participant, Austin, TX (September 2025)
 - **Scientific Machine Learning for Differential Equations Workshop** — Participant, The Oden Institute, Austin, TX (September 2025)
@@ -77,9 +84,15 @@ I am committed to education and mentorship, especially for underrepresented grou
 **Doctor of Philosophy -- Computational and Applied Mathematics**  
 *August 2023 -- May 2028 (Expected)*  
 - **GPA:** 3.96/4.0  
-- **Fellowships:** NDSEG, GEM  
+- **Fellowships:** NDSEG, GEM, Ken Kennedy Institute ExxonMobil Graduate Fellowship  
 - **Advisor:** Dr. Beatrice Riviere  
 - **Key Courses:** Functional Analysis, Advanced Numerical Analysis, Modeling Mathematical Physics, High-Performance Computing, Scientific Machine Learning  
+
+**Master of Arts -- Computational and Applied Mathematics**  
+*December 2025*  
+- **Thesis:** *Numerics-Informed Neural Networks for Parabolic Partial Differential Equations*  
+- **Advisor:** Dr. Beatrice Riviere  
+- **Committee:** Dr. Lu Zhang, Dr. Thomas Anderson  
 
 ### San José State University, San Jose, CA
 **Master of Science -- Mathematics**  

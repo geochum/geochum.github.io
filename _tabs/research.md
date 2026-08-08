@@ -12,19 +12,49 @@ title: Research
   <div>
     <h3>Numerics-Informed Neural Networks (NINNs) for PDEs</h3>
     <p>
-      My research focuses on scientific machine learning for PDEs—developing NINNs and PINNs architectures and GPU-accelerated simulation. The work addresses algorithmic foundations of optimization, neural network architectures, and uses HPC clusters for large-scale computations.
+      Under the direction of <strong>Beatrice Riviere</strong>, I study and extend
+      <strong>Numerics-Informed Neural Networks (NINNs)</strong> for parabolic PDEs.
+      NINNs were introduced by
+      <a href="https://doi.org/10.1016/j.camwa.2024.08.013">Celaya, Kirk, Fuentes, and Riviere (2024)</a>
+      (<a href="https://arxiv.org/abs/2311.00259">arXiv:2311.00259</a>; code
+      <a href="https://github.com/aecelaya/pde-nets">aecelaya/pde-nets</a>) as unsupervised,
+      finite-difference–based convolutional solvers. My work adapts and evaluates that
+      methodology—rather than inventing NINNs or PINNs—through PyTorch implementations,
+      training-schedule studies, and HPC experiments.
     </p>
 
-    <h4>Methods:</h4>
+    <h4>Contributions:</h4>
     <ul>
-      <li>Develop PyTorch-based training pipelines for time-dependent physical systems using deep learning algorithms</li>
-      <li>Analyze error propagation, stability, and convergence under varied data and sampling regimes</li>
-      <li>Implement GPU-aware experiments (NumPy/PyTorch) with ablations, data science methodologies, and reproducible artifacts</li>
-      <li>Compare NINNs against PINNs and finite-difference solvers, focusing on convergence rates and stability</li>
+      <li>Adapted Celaya-style Backward Euler NINNs with boundary lifting (versus penalty BCs) and compact U-Net choices for two-dimensional parabolic problems</li>
+      <li>Implemented PyTorch training pipelines and GPU-aware experiment campaigns (including on Rice NOTs), with ablations and reproducible artifacts in <a href="https://github.com/geochum/neural-pde-solvers">neural-pde-solvers</a></li>
+      <li>Analyzed error propagation, stability, and convergence across training schedules and test problems, comparing NINNs to PINNs and classical finite-difference time-stepping</li>
+      <li>Documented the computational study in an MA thesis (December 2025); a journal manuscript with Adrian Celaya and Beatrice Riviere is in preparation</li>
     </ul>
+  </div>
 
+  <!-- Hybrid PDE solvers (Sandia Summer 2026) -->
+  <div>
+    <h3>Hybrid Neural / Full-Order PDE Coupling (Sandia Summer 2026)</h3>
     <p>
-      Recent work includes introducing Backward Euler–based NINN architectures using discrete Laplacian operators and compact U-Nets for two-dimensional parabolic PDEs, demonstrating competitive convergence rates and stability with classical finite difference schemes.
+      During a summer internship at Sandia National Laboratories, mentored by
+      <strong>Irina Tezaur</strong> and collaborators, I built
+      <a href="https://github.com/geochum/pde-solver-lab">pde-solver-lab</a>—a greenfield
+      research lab for classical finite differences, overlapping Schwarz iteration,
+      FD-NINNs, PINN baselines, and hybrid NINN–FOM studies. The science directions and
+      coupling ideas build on prior work, including Celaya et al.’s NINNs and
+      Schwarz–PINN coupling by
+      <a href="https://arxiv.org/abs/2311.00224">Snyder, Tezaur, and Wentland (2023)</a>.
+    </p>
+
+    <h4>Contributions:</h4>
+    <ul>
+      <li>Designed and implemented the experiment stack (solvers, coupling loops, notebooks, tests, and campaign tooling) used for summer studies</li>
+      <li>Reimplemented and validated Celaya-style NINNs in PyTorch as reusable subdomain solvers within hybrid settings</li>
+      <li>Ran controlled studies of hybrid NINN–FOM (and related) overlapping Schwarz couplings, including boundary-condition and training/reuse choices directed by mentors</li>
+    </ul>
+    <p>
+      Accurate framing: I engineered the software and executed the campaigns. I did not
+      invent NINNs, PocketNet, or Schwarz–PINN coupling.
     </p>
   </div>
 
@@ -63,26 +93,53 @@ title: Research
 
   <!-- Dynamical Systems and Cosmology (Master's Research) -->
   <div>
-    <h3>Dynamical Systems and Cosmology <em>(Master's Research)</em></h3>
+    <h3>Dynamical Systems and Cosmology <em>(SJSU Master's Research)</em></h3>
     <p>
       During my master’s studies at San José State University, my research focused on applying dynamical systems theory to cosmological models in general relativity. This work provided a mathematical framework to study the evolution of the universe and analyze the stability of its critical points.
     </p>
 
-    <h4>Key Contributions:</h4>
+    <h4>Focus:</h4>
     <ul>
       <li><strong>Lambda Cold Dark Matter (ΛCDM) Model:</strong> Analyzed the stability of critical points in the ΛCDM model, examining transitions between radiation-dominated, matter-dominated, and dark energy-dominated phases of the universe.</li>
       <li><strong>Geometric Insights:</strong> Used dynamical systems techniques to explore the relationship between geometry and energy in cosmological equations.</li>
       <li><strong>Numerical Simulations:</strong> Conducted simulations to verify theoretical findings and visualize trajectories of the universe’s evolution.</li>
     </ul>
 
-    <h4>Results:</h4>
+    <h4>Outcomes:</h4>
     <ul>
-      <li>Improved understanding of the long-term behavior of cosmological systems.</li>
-      <li>Provided tools for analyzing nonlinear dynamical systems in general relativity.</li>
+      <li>Improved understanding of the long-term behavior of cosmological systems in the models studied.</li>
+      <li>Explored dynamical-systems techniques for analyzing nonlinear cosmological equations.</li>
     </ul>
 
     <p>
       This research examined the interplay between mathematics and physics, and continues to inform my work on complex systems in applied mathematics.
     </p>
+  </div>
+
+  <!-- Publications & theses -->
+  <div>
+    <h3>Publications &amp; Theses</h3>
+    <ul>
+      <li>
+        <strong>Master’s thesis.</strong>
+        Jorge Chumbipuma.
+        <em>Numerics-Informed Neural Networks for Parabolic Partial Differential Equations</em>.
+        M.A. thesis, Department of Computational Applied Mathematics and Operations Research, Rice University, December 2025.
+        Advisor: Beatrice Riviere.
+      </li>
+      <li>
+        <strong>Manuscript in preparation.</strong>
+        Jorge Chumbipuma, Adrian Celaya, and Beatrice Riviere.
+        Numerics-informed neural networks for parabolic equations (working title).
+      </li>
+      <li>
+        <strong>Related foundational work (not my authorship).</strong>
+        Adrian Celaya, Keegan Kirk, David Fuentes, and Beatrice Riviere.
+        <a href="https://doi.org/10.1016/j.camwa.2024.08.013">Solutions to elliptic and parabolic problems via finite difference based unsupervised small linear convolutional neural networks</a>.
+        <em>Computers &amp; Mathematics with Applications</em>, 174:31–42, 2024.
+        Also <a href="https://arxiv.org/abs/2311.00259">arXiv:2311.00259</a>.
+        Introduces the NINN methodology that my thesis and ongoing work extend.
+      </li>
+    </ul>
   </div>
 </section>
