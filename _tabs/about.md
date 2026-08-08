@@ -83,7 +83,6 @@ I am committed to education and mentorship, especially for underrepresented grou
 ### Rice University, Houston, TX
 **Doctor of Philosophy -- Computational and Applied Mathematics**  
 *August 2023 -- May 2028 (Expected)*  
-- **GPA:** 3.96/4.0  
 - **Fellowships:** NDSEG, GEM, Ken Kennedy Institute ExxonMobil Graduate Fellowship  
 - **Advisor:** Dr. Beatrice Riviere  
 - **Key Courses:** Functional Analysis, Advanced Numerical Analysis, Modeling Mathematical Physics, High-Performance Computing, Scientific Machine Learning  
@@ -97,7 +96,6 @@ I am committed to education and mentorship, especially for underrepresented grou
 ### San José State University, San Jose, CA
 **Master of Science -- Mathematics**  
 *August 2020 -- August 2022*  
-- **GPA:** 3.9/4.0  
 - **Honors:** Phi Kappa Phi  
 - **Advisor:** Dr. Slobodan Simić  
 - **Key Courses:** Advanced Matrix Theory, Numerical Partial Differential Equations, Stochastic Processes, Numerical Linear Algebra  
