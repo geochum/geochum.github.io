@@ -9,10 +9,12 @@
 
 /* append your custom style below */
 
-/* Keep profile/nav from flex-shrinking so a long title/tagline
-   cannot overflow on top of the sidebar links. */
-#sidebar .profile-wrapper,
-#sidebar nav,
-#sidebar .sidebar-bottom {
-  flex-shrink: 0;
+/* Production Chirpy pins the subtitle to 3rem, which clips long
+   taglines so they overflow onto the nav. Let it size to content. */
+#sidebar .site-subtitle {
+  height: auto;
+}
+
+#sidebar .profile-wrapper {
+  margin-bottom: 2.5rem;
 }
