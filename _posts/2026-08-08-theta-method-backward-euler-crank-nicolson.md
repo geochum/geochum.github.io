@@ -12,7 +12,7 @@ description: "A unified derivation of the θ-method for time discretization, spe
 
 When solving parabolic PDEs such as the heat equation, the choice of **time integrator** controls accuracy, stability, and whether high-frequency modes are damped or ring. Three classical one-step schemes—**Forward Euler**, **Backward Euler**, and **Crank–Nicolson**—are special cases of a single family called the **θ-method** (or θ-rule).
 
-This post derives that family, fixes a consistent convention for $\theta$, works out truncation error and stability, and applies the scheme to the one-dimensional heat equation. The goal is numerical-analysis intuition, not a research dump: these are the same discrete residuals that appear later in finite-difference baselines and in numerics-informed neural solvers.
+This post derives that family, fixes a consistent convention for $\theta$, works out truncation error and stability, and applies the scheme to the one-dimensional heat equation. The same discrete residuals appear in finite-difference baselines and in numerics-informed neural solvers.
 
 ---
 
@@ -217,7 +217,7 @@ r^{n+1}
 -\Delta t\,\Delta_h \hat u^{n+1},
 $$
 
-and Crank–Nicolson replaces the right-hand side by the $\theta=\tfrac12$ average. Numerics-informed neural networks (NINNs), introduced by Celaya, Kirk, Fuentes, and Riviere (2024), fix a finite-difference operator and train against such residuals; the $\theta$-method is the classical time discretization underneath NINN-BE and NINN-CN. The neural architecture is a separate story—this post is only about the time discretization.
+and Crank–Nicolson replaces the right-hand side by the $\theta=\tfrac12$ average. Numerics-informed neural networks (NINNs), introduced by Celaya, Kirk, Fuentes, and Riviere (2024), fix a finite-difference operator and train against such residuals; the $\theta$-method is the classical time discretization underneath NINN-BE and NINN-CN.
 
 ---
 

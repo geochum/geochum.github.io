@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: page
+title: Tutoring
 icon: fas fa-chalkboard-teacher
 order: 4
-title: Tutoring
 ---
 
-## Tutoring Services
+I tutor math, science, computer science, and test preparation through **Pumatics**.
 
-For personalized tutoring in math, science, computer science, and test preparation, please visit my dedicated tutoring website, **Pumatics**.
-
-[Visit Pumatics Website](https://www.pumatics.com){: .btn .btn-primary target="_blank" rel="noopener noreferrer"}
+[Pumatics](https://www.pumatics.com){: .btn .btn-primary target="_blank" rel="noopener noreferrer"}
