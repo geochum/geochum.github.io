@@ -24,7 +24,7 @@ I extend **Numerics-Informed Neural Networks (NINNs)** for two-dimensional parab
 
 - **Method.** A compact U-Net is trained on the discrete residual of Backward Euler plus a five-point Laplacian. Dirichlet data enter through boundary lifting rather than penalty terms. I compare this solver to PINNs and to the **same** finite-difference scheme; those PINN baselines are part of the Rice thesis, not the Sandia internship.
 - **What I did.** I implemented the PyTorch training pipelines, ran GPU experiments on Rice **NOTS**, and analyzed manufactured-solution error, stability, and convergence across training schedules. On selected smooth problems the NINN shows at least second-order convergence and smaller error than the same finite-difference scheme.
-- **Writing.** M.A. thesis, May 2026. A journal manuscript with Adrian Celaya and Beatrice Riviere is in preparation (working title below).
+- **Writing.** M.A. thesis, May 2026.
 
 ### Hybrid NINN–FOM overlapping Schwarz
 {: #sandia}
@@ -36,6 +36,7 @@ Sandia CSRI · Summer 2026 · mentored by **Dr. Irina Tezaur**
 
 - **Setup.** Each subdomain can be a classical finite-difference full-order model (FOM) or a NINN, coupled through interface data.
 - **What I did.** I trained NINNs offline on discrete residual losses with exact Dirichlet conditions and reused them as local solvers instead of retraining every Schwarz iteration. I compared hybrid couplings to all-classical Schwarz at high Péclet number (qualitative; held-out cases), and I extended the same coupling to time-dependent problems over successive time windows.
+- **Preprint.** This coupling is [arXiv:2609.17841](https://arxiv.org/abs/2609.17841){: target="_blank" rel="noopener noreferrer"} (September 2026), with Irina Tezaur, Alejandro Diaz, and Beatrice Riviere.
 - **Lineage.** Celaya et al.’s NINNs, and Schwarz–PINN coupling by [Snyder, Tezaur, and Wentland (2023)](https://arxiv.org/abs/2311.00224){: target="_blank" rel="noopener noreferrer"}. I engineered the software and ran the campaigns; mentors directed the science choices.
 
 ### HiOp GPU/RAJA driver
@@ -60,13 +61,8 @@ During my M.S. at San José State University, advised by **Dr. Slobodan Simić**
 ## Publications and theses
 {: #publications}
 
+- **Hybrid coupling with numerics-informed neural networks and the overlapping Schwarz alternating method.**  
+  George Chumbipuma, Irina Tezaur, Alejandro Diaz, and Beatrice Riviere. [arXiv:2609.17841](https://arxiv.org/abs/2609.17841){: target="_blank" rel="noopener noreferrer"} [cs.LG], September 2026.
+
 - **Numerics-Informed Neural Networks for Parabolic Partial Differential Equations.**  
   Jorge Chumbipuma. M.A. thesis, Department of Computational Applied Mathematics and Operations Research, Rice University, May 2026. Advisor: Beatrice Riviere.
-
-- **Numerics-informed neural networks for parabolic equations** (working title).  
-  Jorge Chumbipuma, Adrian Celaya, and Beatrice Riviere. Manuscript in preparation.
-
-- **Solutions to elliptic and parabolic problems via finite difference based unsupervised small linear convolutional neural networks.**  
-  Adrian Celaya, Keegan Kirk, David Fuentes, and Beatrice Riviere. [*Computers & Mathematics with Applications*](https://doi.org/10.1016/j.camwa.2024.08.013){: target="_blank" rel="noopener noreferrer"} 174:31–42, 2024. Also [arXiv:2311.00259](https://arxiv.org/abs/2311.00259){: target="_blank" rel="noopener noreferrer"}.  
-  Not my authorship; this paper introduces the NINN methodology that the thesis extends.
-  {:.text-muted}
