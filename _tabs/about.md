@@ -7,106 +7,110 @@ order: 1
 
 # About
 
-I am Jorge (George) Chumbipuma, a Ph.D. student in Computational & Applied Mathematics at Rice University, working on numerical methods for PDEs with applications in scientific machine learning. My advisor is **Dr. Beatrice Riviere**.
+I am Jorge (George) Chumbipuma, a Ph.D. student in Computational & Applied Mathematics at Rice University. My advisor is **Dr. Beatrice Riviere**. I study numerical methods for time-dependent partial differential equations, with a focus on numerics-informed neural solvers. Project writeups, code, and publications are on the [Research](/research/) page.
 
-## Research Interests
+**Funding.** Current support is the **NDSEG Fellowship** (Department of Defense, September 2025 – August 2028) and the **Ken Kennedy Institute 2025/26 ExxonMobil Graduate Fellowship**. Previously: **GEM Employer Sponsored Fellowship** (National GEM Consortium, sponsored by MIT Lincoln Laboratory, 2024).
 
-My research lies at the intersection of **scientific machine learning (SciML)** and **numerical methods**.
+## Research interests
 
-I study and extend **Numerics-Informed Neural Networks (NINNs)** — time-marching neural solvers for parabolic PDEs introduced by [Celaya, Kirk, Fuentes, and Riviere (2024)](https://doi.org/10.1016/j.camwa.2024.08.013) — focusing on boundary lifting, training schedules, stability, error propagation, and convergence relative to classical schemes such as Backward Euler and Crank–Nicolson. More recently, at **Sandia National Laboratories**, I have built research software to evaluate hybrid neural / full-order couplings that build on prior Schwarz–PINN ideas.
-
-I implement and run computations on HPC clusters (Rice NOTs) and have experience with GPU computing and distributed algorithms from internships at **Sandia National Laboratories** and **Lawrence Livermore National Laboratory**.
-
-Earlier interests in porous media and fracture modeling continue to influence my perspective on multiscale, multiphysics problems.
-
-My research is supported by the **NDSEG Fellowship** (Department of Defense), **GEM Fellowship** (sponsored by MIT Lincoln Laboratory), and the **Ken Kennedy Institute ExxonMobil Graduate Fellowship**. You can explore my ongoing projects, thesis, and related publications on the [Research](/research/) page.
+I extend **Numerics-Informed Neural Networks (NINNs)** for parabolic PDEs, a method introduced by [Celaya, Kirk, Fuentes, and Riviere (2024)](https://doi.org/10.1016/j.camwa.2024.08.013). The network is trained on a discrete residual with fixed finite-difference operators, and Dirichlet conditions are enforced exactly by **boundary lifting**. The main comparison is classical **Backward Euler** finite differences; physics-informed neural networks (PINNs) are Rice **thesis** baselines. I did not invent NINNs or PINNs. Details are on the [Research](/research/) page.
 
 ## Experience
 
-- **Computational Science Intern – Sandia National Laboratories** (Summer 2026)  
-  Studied hybrid neural / full-order PDE coupling with overlapping Schwarz methods. Built a research code lab for finite-difference, NINN, and PINN baselines and ran experiment campaigns under the mentorship of Irina Tezaur and collaborators, adapting methods introduced in prior Sandia and Rice work rather than inventing those frameworks.
+- **R&D Graduate Summer Intern — Computer Science Research Institute (CSRI), Sandia National Laboratories** (Summer 2026)
+  I built overlapping-Schwarz software for two-dimensional advection–diffusion: finite-difference or NINN solvers on each subdomain, coupled through interface data, including time-window marching. Mentored by **Dr. Irina Tezaur**.
 
-- **Scientific Computing Intern – Lawrence Livermore National Laboratory** (Summer 2025)  
-  Worked on GPU-enabled optimization in the HiOp framework: implemented RAJA-based solvers with MPI support and ported quasi-Newton methods to CUDA.
+- **Scientific Computing Intern — Lawrence Livermore National Laboratory** (Summer 2025)
+  I implemented a RAJA dense-constraint driver with MPI in HiOp, added MAGMA GPU linear-algebra paths alongside LAPACK, and configured GPU tests on Lassen (IBM Power9 + NVIDIA V100) with `ctest`, `jsrun`, and TotalView.
 
-- **Summer Research Intern – MIT Lincoln Laboratory** (Summer 2024)  
-  Conducted research on modeling and analysis of Intelligence, Surveillance, and Reconnaissance (ISR) systems. Developed mathematical models and implemented simulations in MATLAB to analyze system behavior under varied mission parameters.
+- **Owl Edge Externship — Computational Science, Oak Ridge National Laboratory** (March 2025)
+  I shadowed computational scientists, including a Frontier supercomputer tour, with host **Dr. Shuo Qian**.
 
-<!-- - **Virtual Math Instructor – Art of Problem Solving (2023–present)**  
+- **Summer Research Intern — MIT Lincoln Laboratory** (Summer 2024)
+  I built MATLAB models of Intelligence, Surveillance, and Reconnaissance (ISR) and tactical system performance and ran scenario sweeps over mission parameters.
+
+<!-- - **Virtual Math Instructor – Art of Problem Solving (2023–present)**
   Teach middle- and high-school students in courses such as Prealgebra, Algebra, and Precalculus. -->
 
 ## Presentations
 
-- **Numerics-Informed Neural Networks for Parabolic PDEs** (Talk), 2026 SIAM Annual Meeting (AN26), July 2026
-- **Numerics-Informed Neural Networks for Parabolic PDEs** (Lightning talk and poster), Energy HPC & AI Conference, Ken Kennedy Institute, Rice University, Houston, TX, February 2026
+Selected talks and posters, newest first.
+
+- **Numerics-Informed Neural Networks for PDE Solvers: Error Bounds and Pretrained Models for Schwarz Domain Decomposition** (Oral presentation), Technical Presentation Competition, 50th Annual GEM Conference, Dallas, TX, September 2026
+- **Numerics-Informed Neural Networks for Parabolic Partial Differential Equations** (Poster), International Congress of Mathematicians (ICM 2026), Philadelphia, PA, July 2026
+- **Numerics-Informed Neural Networks for Parabolic Partial Differential Equations** (Contributed presentation), 2026 SIAM Annual Meeting (AN26), Cleveland, OH, July 2026
+- **Numerics-Informed Neural Networks for Parabolic PDEs** (Lightning talk and poster), Energy HPC & AI Conference, Ken Kennedy Institute, Rice University, Houston, TX, February 2026. One of seven selected lightning speakers.
 - **Scientific Machine Learning for Geophysical PDEs** (Poster), SIAM Conference on Mathematical & Computational Issues in the Geosciences (GS25), Louisiana State University, Baton Rouge, LA, October 2025
-- **Numerics-Informed Neural Networks for Parabolic PDEs** (Poster), RTG NASC Annual Workshop, Rice University, Houston, TX, October 2025
-- **Numerical Solutions to the Nonlinear Vlasov Equations**, Rice University, Houston, TX, May 2024
 
-## Teaching, Mentoring, and Outreach
+## Leadership, mentoring, and teaching
 
-I am committed to education and mentorship, especially for underrepresented groups in STEM.
+### Leadership
+
+- **Vice President — Rice University SIAM Student Chapter** (August 2026 – present)
+  I serve as Vice President for the 2026–2027 term and maintain the chapter website (events, SIAM meetings, internships and fellowships, and newsletter materials).
 
 ### Mentoring
 
-- **Peer Mentor — PhD Peer Mentoring Program**, Rice University Center for Engineering Excellence Through Equity (October 2025 — Present)  
-  Mentoring a PhD student in the George R. Brown School of Engineering and Computing through a formal university-sponsored peer mentoring program.
+- **Peer Mentor — PhD Peer Mentoring Program**, Rice University Center for Engineering Excellence Through Equity (October 2025 – present)
+  I mentor a Ph.D. student in the George R. Brown School of Engineering and Computing through Rice’s formal peer mentoring program.
 
-- **Peer Mentor — SACRED Mentoring Program**, Society for Advancement of Chicanos/Hispanics & Native Americans in Science (SACNAS) (March 2025 — September 2025)  
-  Mentored a Latina student transitioning to graduate-level mathematics through SACNAS's Mentorship Activated by SACNISTAs (MAS) Circle, providing biweekly check-ins, academic guidance, and resources toward her PhD goal.
+- **Invited panelist — Fellowship Guidance**, Gulf Coast Undergraduate Research Symposium (GCURS), Rice University (October 2025)
+  I represented NDSEG on a fellowship panel with NSF GRFP, Fulbright, Hertz, and Goldwater.
 
-- **Fellowship Panel Discussion**, Gulf Coast Undergraduate Research Symposium (GCURS), Rice University (October 2025)  
-  Invited panelist representing NDSEG alongside panelists from NSF GRFP, Fulbright, Hertz, and Goldwater fellowships. Shared insights on fellowship application processes and opportunities.
+- **Peer Mentor — SACRED Mentoring Program / MAS Circle**, Society for Advancement of Chicanos/Hispanics & Native Americans in Science (SACNAS) (March 2025 – September 2025)
+  I mentored a student transitioning to graduate-level mathematics through SACNAS’s Mentorship Activated by SACNISTAs (MAS) Circle.
 
-<!-- - **Participant — Activation 1:1 Coaching Program**, Rice University Doerr Institute for New Leaders (August 2023 — December 2023)  
+<!-- - **Participant — Activation 1:1 Coaching Program**, Rice University Doerr Institute for New Leaders (August 2023 — December 2023)
   Completed semester-long, personalized leadership coaching with an ICF-certified coach. Strengthened skills in empathic listening, delegation, trust-building, and emotional intelligence. -->
 
 ### Teaching
 
-- **Founder & Lead Educator — Pumatics** (January 2022 — Present)  
-  Operate a tutoring service offering instruction in math, science, computer science, and test preparation. Learn more on the [Tutoring](/tutoring/) page.
+- **Founder & Lead Educator — Pumatics** (January 2022 – present)
+  I run a tutoring service in math, science, computer science, and test preparation. Details are on the [Tutoring](/tutoring/) page.
 
-### Conferences and Workshops
+## Conferences and workshops
 
-- **2026 SIAM Annual Meeting (AN26)** — Presenter, July 2026
-- **Energy HPC & AI Conference** — Presenter (lightning talk and poster), Rice University, Houston, TX (February 2026)
-- **SIAM Conference on Mathematical & Computational Issues in the Geosciences (GS25)** — Presenter, Baton Rouge, LA (October 2025)
-- **SIAM Texas-Louisiana Sectional Meeting** — Participant, Austin, TX (September 2025)
-- **Scientific Machine Learning for Differential Equations Workshop** — Participant, The Oden Institute, Austin, TX (September 2025)
-- **Firedrake USA 2025 Workshop** — Participant, Waco, TX (February–March 2025)
-- **Blackwell–Tapia Conference** — Participant, ICERM @ Brown University, Providence, RI (November 2024)
-- **GEM 2024 Annual Conference** — Participant, San Antonio, TX (September 2024)
-- **SACNAS CareerCon 2024** — Participant, Remote (March 2024)
+Participant-only events (talks are listed under Presentations, not here).
+
+- **SIAM Texas–Louisiana Sectional Meeting** — Participant, Austin, TX, September 2025
+- **Scientific Machine Learning for Differential Equations Workshop** — Participant, Oden Institute, Austin, TX, September 2025
+- **Firedrake USA 2025 Workshop** — Participant, Waco, TX, February–March 2025
+- **Blackwell–Tapia Conference** — Participant, ICERM / Brown University, Providence, RI, November 2024
+- **GEM 2024 Annual Conference** — Participant, San Antonio, TX, September 2024
+- **SACNAS CareerCon 2024** — Participant, remote, March 2024
 
 ## Education
 
 ### Rice University, Houston, TX
-**Doctor of Philosophy -- Computational and Applied Mathematics**  
-*August 2023 -- May 2028 (Expected)*  
-- **Fellowships:** NDSEG, GEM, Ken Kennedy Institute ExxonMobil Graduate Fellowship  
-- **Advisor:** Dr. Beatrice Riviere  
-- **Key Courses:** Functional Analysis, Advanced Numerical Analysis, Modeling Mathematical Physics, High-Performance Computing, Scientific Machine Learning  
 
-**Master of Arts -- Computational and Applied Mathematics**  
-*December 2025*  
-- **Thesis:** *Numerics-Informed Neural Networks for Parabolic Partial Differential Equations*  
-- **Advisor:** Dr. Beatrice Riviere  
-- **Committee:** Dr. Lu Zhang, Dr. Thomas Anderson  
+**Doctor of Philosophy — Computational and Applied Mathematics**
+*August 2023 – expected May 2028*
+- **Advisor:** Dr. Beatrice Riviere
+- **Courses:** Applied Functional Analysis; Advanced Numerical Analysis; Numerical Methods for PDEs; Numerical Linear Algebra; Systems of Equations & Unconstrained Optimization; Modeling Mathematical Physics; High-Performance Computing; Scientific Machine Learning
+
+**Master of Arts — Computational and Applied Mathematics** (thesis)
+*August 2023 – May 2026*
+- **Thesis:** *Numerics-Informed Neural Networks for Parabolic Partial Differential Equations*
+- **Defense:** 9 December 2025
+- **Conferred:** 9 May 2026
+- **Committee:** Dr. Beatrice Riviere (advisor), Dr. Lu Zhang, Dr. Thomas Anderson
 
 ### San José State University, San Jose, CA
-**Master of Science -- Mathematics**  
-*August 2020 -- August 2022*  
-- **Honors:** Phi Kappa Phi  
-- **Advisor:** Dr. Slobodan Simić  
-- **Key Courses:** Advanced Matrix Theory, Numerical Partial Differential Equations, Stochastic Processes, Numerical Linear Algebra  
-- **Research:** Applied dynamical systems techniques to analyze stability in cosmological models within the Lambda Cold Dark Matter (ΛCDM) framework.
+
+**Master of Science — Mathematics**
+*August 2020 – August 2022*
+- **Advisor:** Dr. Slobodan Simić
+- **Honors:** Phi Kappa Phi
+- **Courses:** Numerical PDEs; Numerical Linear Algebra; Advanced Dynamical Systems; Stochastic Processes
 
 ### University of California, Irvine, Irvine, CA
-**Bachelor of Science -- Double Major in Electrical Engineering and Physics**  
-**Minor:** Information and Computer Science  
-- **Honors:** Tau Beta Pi  
-- **Key Courses:** Data Structures, Numerical Analysis, Statistical Physics, Engineering Probability, Machine Vision, Computer Organization  
 
-## Future Goals
+**Bachelor of Science — Electrical Engineering and Physics** (double major)
+*September 2010 – June 2013*
+- **Minor:** Information and Computer Science
+- **Honors:** Tau Beta Pi
+- **Courses:** Numerical Analysis; Data Structures; Digital Signal Processing; Engineering Probability; Computer Organization; Embedded Computing Systems; Statistical Physics; Mathematical Physics
 
-I aim to become a Research Computational Scientist at a national laboratory, working on scientific computing and numerical methods. I am interested in developing computational methods for complex physical systems and contributing to large-scale scientific simulations.
+## Future goals
+
+I aim to work as a computational scientist at a national laboratory, building numerical methods and scientific computing software for large-scale simulations.
