@@ -38,7 +38,6 @@ August 2023 – May 2026
 {:.text-muted}
 
 - **Thesis:** *Numerics-Informed Neural Networks for Parabolic Partial Differential Equations*
-- **Defense:** 9 December 2025 · **Conferred:** 9 May 2026
 - **Committee:** Dr. Beatrice Riviere (advisor), Dr. Lu Zhang, Dr. Thomas Anderson
 
 ### San José State University
@@ -62,9 +61,6 @@ Irvine, CA
 {:.text-muted}
 
 **B.S., Electrical Engineering and Physics** (double major)
-
-September 2010 – June 2013
-{:.text-muted}
 
 - **Minor:** Information and Computer Science
 - **Honors:** Tau Beta Pi

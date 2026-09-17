@@ -24,7 +24,7 @@ I extend **Numerics-Informed Neural Networks (NINNs)** for two-dimensional parab
 
 - **Method.** A compact U-Net is trained on the discrete residual of Backward Euler plus a five-point Laplacian. Dirichlet data enter through boundary lifting rather than penalty terms. I compare this solver to PINNs and to the **same** finite-difference scheme; those PINN baselines are part of the Rice thesis, not the Sandia internship.
 - **What I did.** I implemented the PyTorch training pipelines, ran GPU experiments on Rice **NOTS**, and analyzed manufactured-solution error, stability, and convergence across training schedules. On selected smooth problems the NINN shows at least second-order convergence and smaller error than the same finite-difference scheme.
-- **Writing.** M.A. thesis, defended 9 December 2025, conferred 9 May 2026. A journal manuscript with Adrian Celaya and Beatrice Riviere is in preparation (working title below).
+- **Writing.** M.A. thesis, May 2026. A journal manuscript with Adrian Celaya and Beatrice Riviere is in preparation (working title below).
 
 ### Hybrid NINN–FOM overlapping Schwarz
 {: #sandia}
@@ -61,7 +61,7 @@ During my M.S. at San José State University, advised by **Dr. Slobodan Simić**
 {: #publications}
 
 - **Numerics-Informed Neural Networks for Parabolic Partial Differential Equations.**  
-  Jorge Chumbipuma. M.A. thesis, Department of Computational Applied Mathematics and Operations Research, Rice University. Conferred 9 May 2026; defended 9 December 2025. Advisor: Beatrice Riviere.
+  Jorge Chumbipuma. M.A. thesis, Department of Computational Applied Mathematics and Operations Research, Rice University, May 2026. Advisor: Beatrice Riviere.
 
 - **Numerics-informed neural networks for parabolic equations** (working title).  
   Jorge Chumbipuma, Adrian Celaya, and Beatrice Riviere. Manuscript in preparation.
