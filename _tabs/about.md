@@ -7,9 +7,9 @@ order: 1
 
 I am Jorge (George) Chumbipuma, a Ph.D. student in Computational & Applied Mathematics at Rice University. My advisor is **Dr. Beatrice Riviere**. I study numerical methods for time-dependent partial differential equations, with a focus on numerics-informed neural solvers. I am training toward a career as a computational scientist at a national laboratory.
 
-I extend **Numerics-Informed Neural Networks (NINNs)** for parabolic PDEs, a method introduced by [Celaya, Kirk, Fuentes, and Riviere (2024)](https://doi.org/10.1016/j.camwa.2024.08.013){: target="_blank" rel="noopener noreferrer"}. The network is trained on a discrete residual with fixed finite-difference operators, and Dirichlet conditions are enforced exactly by **boundary lifting**. The main comparison is classical **Backward Euler** finite differences; physics-informed neural networks (PINNs) are Rice **thesis** baselines. Details and publications are on the [Research](/research/) page.
+I extend **Numerics-Informed Neural Networks (NINNs)** for parabolic PDEs, a method introduced by [Celaya, Kirk, Fuentes, and Riviere (2024)](https://doi.org/10.1016/j.camwa.2024.08.013){: target="_blank" rel="noopener noreferrer"}. The network is trained on a discrete residual with fixed finite-difference operators, and Dirichlet conditions are enforced exactly by **boundary lifting**. Details and publications are on the [Research](/research/) page.
 
-Current support is the **NDSEG Fellowship** (Department of Defense, September 2025 – August 2028) and the **Ken Kennedy Institute 2025/26 ExxonMobil Graduate Fellowship**. Previously: **GEM Employer Sponsored Fellowship** (National GEM Consortium, sponsored by MIT Lincoln Laboratory, 2024).
+Current support is the **NDSEG Fellowship** (Department of Defense, September 2025 – August 2028) and the **Ken Kennedy Institute 2025/26 ExxonMobil Graduate Fellowship**. Also **HSF Scholar** — Hispanic Scholarship Fund (2025). Previously: **GEM Employer Sponsored Fellowship** (National GEM Consortium, sponsored by MIT Lincoln Laboratory, 2024).
 {:.text-muted}
 
 [Education](#education) · [Experience](#experience) · [Leadership](#leadership) · [Talks](#talks) · [Workshops](#workshops)
@@ -34,9 +34,6 @@ August 2023 – expected May 2028
 
 **M.A., Computational and Applied Mathematics** (thesis)
 
-August 2023 – May 2026
-{:.text-muted}
-
 - **Thesis:** *Numerics-Informed Neural Networks for Parabolic Partial Differential Equations*
 - **Committee:** Dr. Beatrice Riviere (advisor), Dr. Lu Zhang, Dr. Thomas Anderson
 
@@ -46,9 +43,6 @@ San Jose, CA
 {:.text-muted}
 
 **M.S., Mathematics**
-
-August 2020 – August 2022
-{:.text-muted}
 
 - **Advisor:** Dr. Slobodan Simić
 - **Honors:** Phi Kappa Phi
@@ -75,14 +69,14 @@ Irvine, CA
   Summer 2026
   {:.text-muted}
 
-  I built overlapping-Schwarz software for two-dimensional advection–diffusion: finite-difference or NINN solvers on each subdomain, coupled through interface data, including time-window marching. Mentored by **Dr. Irina Tezaur**. The scientific writeup is on [Research](/research/#sandia).
+  I built overlapping-Schwarz software for two-dimensional advection–diffusion: finite-difference or NINN solvers on each subdomain, coupled through interface data, including time-window marching. Mentored by **Dr. Irina Tezaur**. This coupling is [arXiv:2609.17841](https://arxiv.org/abs/2609.17841){: target="_blank" rel="noopener noreferrer"}. More on [Research](/research/#sandia).
 
 - **Scientific Computing Intern — Lawrence Livermore National Laboratory**
 
   Summer 2025
   {:.text-muted}
 
-  I implemented a RAJA dense-constraint driver with MPI in HiOp, added MAGMA GPU linear-algebra paths alongside LAPACK, and configured GPU tests on Lassen (IBM Power9 + NVIDIA V100) with `ctest`, `jsrun`, and TotalView. Details are on [Research](/research/#llnl).
+  I implemented a RAJA dense-constraint driver with MPI in HiOp, added MAGMA GPU linear-algebra paths alongside LAPACK, and configured GPU tests on Lassen (IBM Power9 + NVIDIA V100) with `ctest`, `jsrun`, and TotalView. More on [Research](/research/#llnl).
 
 - **Owl Edge Externship — Computational Science, Oak Ridge National Laboratory**
 
@@ -97,9 +91,6 @@ Irvine, CA
   {:.text-muted}
 
   I built MATLAB models of Intelligence, Surveillance, and Reconnaissance (ISR) and tactical system performance and ran scenario sweeps over mission parameters.
-
-<!-- - **Virtual Math Instructor – Art of Problem Solving (2023–present)**
-  Teach middle- and high-school students in courses such as Prealgebra, Algebra, and Precalculus. -->
 
 ## Leadership, mentoring, and teaching
 {: #leadership}
@@ -136,9 +127,6 @@ Irvine, CA
 
   I mentored a student transitioning to graduate-level mathematics through SACNAS’s Mentorship Activated by SACNISTAs (MAS) Circle.
 
-<!-- - **Participant — Activation 1:1 Coaching Program**, Rice University Doerr Institute for New Leaders (August 2023 — December 2023)
-  Completed semester-long, personalized leadership coaching with an ICF-certified coach. -->
-
 ### Teaching
 
 - **Founder & Lead Educator, [Pumatics](/tutoring/)**
@@ -146,12 +134,10 @@ Irvine, CA
   January 2022 – present
   {:.text-muted}
 
-  Math, science, computer science, and test-prep tutoring; see the [Tutoring](/tutoring/) tab.
+  Math, science, computer science, and test-prep tutoring; see [Tutoring](/tutoring/).
 
 ## Selected presentations
 {: #talks}
-
-Newest first. Talks, not awards.
 
 - **Numerics-Informed Neural Networks for PDE Solvers: Error Bounds and Pretrained Models for Schwarz Domain Decomposition**
 
@@ -180,8 +166,6 @@ Newest first. Talks, not awards.
 
 ## Conferences and workshops
 {: #workshops}
-
-Participant-only. Talks are listed above, not here.
 
 - **SIAM Texas–Louisiana Sectional Meeting** — Participant, Austin, TX, September 2025
 - **Scientific Machine Learning for Differential Equations Workshop** — Participant, Oden Institute, Austin, TX, September 2025
