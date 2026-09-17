@@ -63,4 +63,10 @@ article:has(> h1.dynamic-title) .content {
     margin-top: 0.15rem;
     margin-bottom: 0.4rem;
   }
+
+  /* Chirpy injects a hover hashtag permalink on every heading.
+     Tab pages already have jump links; keep the IDs, hide the icon. */
+  .anchor {
+    display: none;
+  }
 }
