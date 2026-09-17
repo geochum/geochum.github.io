@@ -102,7 +102,7 @@ Irvine, CA
   2026–2027
   {:.text-muted}
 
-  I serve as Vice President and maintain the chapter website (events, SIAM meetings, internships and fellowships, and newsletter materials).
+  I serve as Vice President and maintain the [chapter website](https://siam.rice.edu/){: target="_blank" rel="noopener noreferrer"} (events, SIAM meetings, internships and fellowships, and newsletter materials).
 
 ### Mentoring
 

@@ -46,7 +46,7 @@ This coupling is [arXiv:2609.17841](https://arxiv.org/abs/2609.17841){: target="
 Lawrence Livermore National Laboratory · Summer 2025
 {:.text-muted}
 
-I worked in **HiOp** (a high-performance optimization library), using **RAJA** (a portability layer for parallel loops on CPUs and GPUs).
+I worked in **[HiOp](https://github.com/LLNL/hiop){: target="_blank" rel="noopener noreferrer"}** (a high-performance optimization library), using **RAJA** (a portability layer for parallel loops on CPUs and GPUs).
 
 I implemented a RAJA-based dense-constraint driver with MPI in HiOp, so the same code path can run on CPU and NVIDIA GPU backends. I added GPU memory-space options and **MAGMA** GPU paths for limited-memory quasi-Newton components, alongside existing LAPACK CPU paths, plus device-agnostic vector and matrix kernels with RAJA parallel loops and unified memory.
 
